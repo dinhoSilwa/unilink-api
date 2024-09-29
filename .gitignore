@@ -1,0 +1,91 @@
+# Dependências
+node_modules/
+yarn-error.log
+
+# Arquivos de compilação
+dist/
+build/
+*.tsbuildinfo
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretório de cobertura de testes
+coverage/
+
+# Arquivos temporários
+tmp/
+temp/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDE e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos de debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de TypeScript
+*.tsbuildinfo
+
+# Arquivos de configuração local
+*.local
+
+# Uploads temporários
+uploads/
+
+# Arquivos de compilação do TypeScript
+*.js
+*.js.map
+*.d.ts
+
+# Exceções para arquivos de configuração
+!.eslintrc.js
+!.prettierrc.js
+!babel.config.js
+!jest.config.js
+
+# Arquivos de lock de pacotes (você pode querer incluir yarn.lock no repositório)
+# yarn.lock
+package-lock.json
+
+# Caches
+.cache/
+.npm/
+
+# Arquivos de build do Cloudinary
+.cloudinary/
+
+# Arquivos de documentação gerados automaticamente
+docs/
+
+# Arquivos de backup
+*.bak
+*.backup
+*~
+
+# Arquivos de certificado SSL
+*.pem
+*.cert
+*.key
+
+# Arquivos de teste específicos do ambiente
+.env.test

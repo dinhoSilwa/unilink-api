@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext", // Ou "ES6" para suporte a ES Modules
+    "lib": [
+      "ES6",
+      "dom"
+    ],
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true, // Mantém a interoperabilidade com CommonJS
+    "moduleResolution": "node", // Resolve os módulos no estilo Node.js
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "node/modules/*",
+        "src/types/*"
+      ]
+    },
+    "allowSyntheticDefaultImports": true, // Permite importações padrão
+    "forceConsistentCasingInFileNames": true // Garante consistência no uso de maiúsculas e minúsculas
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
