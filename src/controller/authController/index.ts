@@ -1,6 +1,5 @@
 import type { Request, Response } from "express";
 import { AuthService } from "../../service/auth";
-import type { Iauthcredentials } from "../../types/auth";
 
 export class AuthController {
   static async registerUserAuth(req: Request, res: Response): Promise<void> {
