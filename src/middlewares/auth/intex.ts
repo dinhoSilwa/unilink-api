@@ -5,9 +5,10 @@ import type { NextFunction, Response, Request } from "express";
 configDotenv();
 
 const secret = process.env.JWTSECRET;
+export type AuthenticatedRequest = Request & {user? :  any}
 
-export const authenticateToken = (
-  req: Request,
+export const cauthenticateToken = (
+  req: Request & {user? : any},
   res: Response,
   next: NextFunction
 ) => {
